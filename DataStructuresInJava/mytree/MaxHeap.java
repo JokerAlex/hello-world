@@ -2,6 +2,7 @@ package com.z.mytree;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
 
 /**
  * @ClassName MaxHeap
@@ -121,16 +122,24 @@ public class MaxHeap<T extends Comparable<T>> {
 
 
     public static void main(String[] args) {
+        Random random = new Random();
+        MaxHeap<Integer> maxHeap = new MaxHeap<Integer>(10);
+        int n = 20;
+        Integer[] a = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            int item = random.nextInt(n);
+            a[i] = item;
+            System.out.print(item + " ");
 
-        Integer[] a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-        MaxHeap<Integer> maxHeap = new MaxHeap<Integer>(a);
-        maxHeap.printHeap();
-
-        MaxHeap<Integer> maxHeap2 = new MaxHeap<Integer>(10);
-        for (int i = 0; i < 10; i++) {
-            maxHeap2.add(i);
+            if (maxHeap.getSize() == 10) {
+                if (maxHeap.getMax() > item) {
+                    maxHeap.replace(item);
+                }
+            } else {
+                maxHeap.add(item);
+            }
         }
         System.out.println();
-        maxHeap2.printHeap();
+        maxHeap.printHeap();
     }
 }
