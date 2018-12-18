@@ -8,6 +8,9 @@ import java.util.Random;
 /**
  * @ClassName QuickSort
  * @Description quick sort
+ *  1.最好时间复杂度O(nlogn),最坏时间复杂度O(n^2)
+ *  2.原地排序
+ *  3.不稳定
  * @Author alex
  * @Date 2018/11/25
  **/

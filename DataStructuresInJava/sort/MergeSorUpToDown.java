@@ -5,6 +5,9 @@ import java.util.Random;
 /**
  * @ClassName MergeSorUpToDown
  * @Description up to down merge sort
+ *  1.最好、最快、平均时间复杂度O(nlogn)
+ *  2.不是原地排序，空间复杂度O(n)
+ *  3.稳定排序
  * @Author alex
  * @Date 2018/11/25
  **/

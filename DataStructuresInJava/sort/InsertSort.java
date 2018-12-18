@@ -5,6 +5,9 @@ import java.util.Random;
 /**
  * @ClassName InsertSort
  * @Description insert sort
+ *  1.最好时间复杂度O(n),最坏时间复杂度O(n^2),平均时间复杂度O(n^2).
+ *  2.原地排序
+ *  3.稳定
  * @Author alex
  * @Date 2018/11/25
  **/

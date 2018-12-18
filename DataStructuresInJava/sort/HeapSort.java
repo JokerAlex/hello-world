@@ -5,6 +5,10 @@ import java.util.Random;
 /**
  * @ClassName HeapSort
  * @Description heap sort
+ *  1.堆排序包括建堆和排序两个操作，建堆过程的时间复杂度是 O(n),排序过程的时间复杂度是O(nlogn),
+ *  所以堆排序的整体时间复杂度是O(nlogn)
+ *  2.原地排序
+ *  3.不稳定
  * @Author alex
  * @Date 2018/11/25
  **/
