@@ -1,3 +1,3 @@
 # hello-world
 
-- [leetcode记录](https://github.com/JokerAlex/hello-world/blob/master/Algorithms/leetcode.md)
+- [leetcode记录](./Algorithms/leetcode.md)
