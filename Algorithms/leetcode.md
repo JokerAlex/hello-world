@@ -4,6 +4,8 @@
 |2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)|[Java](./leetcode/2.Add%20Two%20Numbers.md)|
 |3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Java](./leetcode/3.Longest%20Substring%20Without%20Repeating%20Characters.md)|
 |5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)|[Java](./leetcode/5.Longest%20Palindromic%20Substring.md)|
+|7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)|[Java](./leetcode/7.Reverse%20Integer.md)|
+|8|[String to Integer atoi](https://leetcode-cn.com/problems/string-to-integer-atoi/)|[Java](./leetcode/8.String%20to%20Integer%20atoi.md)|
 |11|[Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/)|[Java](./leetcode/11.Container%20With%20Most%20Water.md)|
 |14|[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)|[Java](./leetcode/14.Longest%20Common%20Prefix.md)|
 |15|[3Sum](https://leetcode-cn.com/problems/3sum/)|[Java](./leetcode/15.3Sum.md)|
@@ -13,22 +15,29 @@
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Java](./leetcode/21.Merge%20Two%20Sorted%20Lists.md)|
 |23|[Merge k Sorted Lists](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Java](./leetcode/23.Merge%20k%20Sorted%20Lists.md)|
 |24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|[Java](./leetcode/24.Swap%20Nodes%20in%20Pairs.md)|
+|31|[Next Permutation](https://leetcode-cn.com/problems/next-permutation/)|[Java](./leetcode/31.Next%20Permutation.md)|
 |33|[Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[Java](./leetcode/33.Search%20in%20Rotated%20Sorted%20Array.md)|
+|39|[Combination Sum](https://leetcode-cn.com/problems/combination-sum/)|[Java](./leetcode/39.Combination%20Sum.md)|
+|40|[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Java](./leetcode/40.Combination%20Sum%20II.md)|
 |43|[Multiply Strings](https://leetcode-cn.com/problems/multiply-strings/)|[Java](./leetcode/43.Multiply%20Strings.md)|
 |46|[Permutations](https://leetcode-cn.com/problems/permutations/)|[Java](./leetcode/46.Permutations.md)|
 |47|[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)|[Java](./leetcode/47.Permutations%20II.md)|
 |50|[Powx n](https://leetcode-cn.com/problems/powx-n/)|[Java](./leetcode/50.Powx%20n.md)|
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)|[Java](./leetcode/53.Maximum%20Subarray.md)|
+|60|[Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/)|[Java](./leetcode/60.Permutation%20Sequence.md)|
 |61|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)|[Java](./leetcode/61.Rotate%20List.md)|
 |62|[Unique Paths](https://leetcode-cn.com/problems/unique-paths/)|[Java](./leetcode/62.Unique%20Paths.md)|
 |64|[Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/)|[Java](./leetcode/64.Minimum%20Path%20Sum.md)|
 |69|[Sqrtx](https://leetcode-cn.com/problems/sqrtx/)|[Java](./leetcode/69.Sqrtx.md)|
 |70|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)|[Java](./leetcode/70.Climbing%20Stairs.md)|
 |74|[Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)|[Java](./leetcode/74.Search%20a%202D%20Matrix.md)|
+|77|[Combinations](https://leetcode-cn.com/problems/combinations/)|[Java](./leetcode/77.Combinations.md)|
+|78|[Subsets](https://leetcode-cn.com/problems/subsets/)|[Java](./leetcode/78.Subsets.md)|
 |82|[Remove Duplicates from Sorted List II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](./leetcode/82.Remove%20Duplicates%20from%20Sorted%20List%20II.md)|
 |83|[Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|[Java](./leetcode/83.Remove%20Duplicates%20from%20Sorted%20List.md)|
+|90|[Subsets II](https://leetcode-cn.com/problems/subsets-ii/)|[Java](./leetcode/90.Subsets%20II.md)|
 |91|[Decode Ways](https://leetcode-cn.com/problems/decode-ways/)|[Java](./leetcode/91.Decode%20Ways.md)|
-|94|[Binary Tree Inorder Traversal ](https://leetcode-cn.com/problems/binary-tree-inorder-traversal-/)|[Java](./leetcode/94.Binary%20Tree%20Inorder%20Traversal%20.md)|
+|93|[Restore IP Addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Java](./leetcode/93.Restore%20IP%20Addresses.md)|
 |94|[Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)|[Java](./leetcode/94.Binary%20Tree%20Inorder%20Traversal.md)|
 |98|[Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[Java](./leetcode/98.Validate%20Binary%20Search%20Tree.md)|
 |101|[Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)|[Java](./leetcode/101.Symmetric%20Tree.md)|
@@ -62,6 +71,7 @@
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](./leetcode/235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](./leetcode/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)|
 |279|[Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/)|[Java](./leetcode/279.Perfect%20Squares.md)|
+|300|[Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Java](./leetcode/300.Longest%20Increasing%20Subsequence.md)|
 |303|[Range Sum Query Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)|[Java](./leetcode/303.Range%20Sum%20Query%20Immutable.md)|
 |328|[Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/)|[Java](./leetcode/328.Odd%20Even%20Linked%20List.md)|
 |337|[House Robber III](https://leetcode-cn.com/problems/house-robber-iii/)|[Java](./leetcode/337.House%20Robber%20III.md)|
